@@ -1,0 +1,24 @@
+Led Matrix
+==========
+
+#define DIODE_CLOCKOUTPIN 9     // "Latch"
+#define DIODE_CLOCKPIN 10       // Clock
+#define DIODE_OUTPUTPIN 8       // Serial Data
+#define DIODE_OUTPUTENABLEPIN 7 // Output Enable
+
+Bit ordering after shifting 24 bits C is row Cathode, R is Red column anode, G is green
+ C1 C2 C3 C4 C5 C6 C7 C8 R1 R2 R3 R4 R5 R6 R7 R8 G1 G2 G3 G4 G5 G6 G7 G8
+
+
+Accelerometer
+=============
+D5 is "CS" line - Chip Select
+SPI in parallel with Radio
+
+
+Radio link
+==========
+D2 is CSN "Chip select"
+SPI in parallel with Accelerometer
+
+SPI uses (hardwired in chip) (D10 SS), D11 MOSI/SDA, D12 MISO/SDO, D13 SCK/SCL
