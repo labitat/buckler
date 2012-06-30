@@ -1,0 +1,8 @@
+accel_id_reader: reads the ADXL345 ID. this should output 0xE5 if SPI communication is working and the accelerometer isn't fried.
+diode_single: turn on a single diode
+diode_show_char: display a character (from A to Z) on the diode display
+diode_scroll_string: scroll a string of characters across the diode display
+digital_level: shows the accelerometer X and Y axis input on the diode display
+
+Radio communication is still a work in progress.
+

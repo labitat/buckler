@@ -1,0 +1,9 @@
+README
+
+The development of "access routines" for the Buckler board.
+
+Msquare june/july 2012:
+Buildt on the first attempt by Juul(?) around october 2009,
+but it is a total rewrite: Arduino enviroment changes and
+split up into files so there is in effect a "library" of functions.
+
