@@ -7,3 +7,5 @@ Buildt on the first attempt by Juul(?) around october 2009,
 but it is a total rewrite: Arduino enviroment changes and
 split up into files so there is in effect a "library" of functions.
 
+Complete is under development - compiles fine under Arduino v1 (and 0022)
+  as one sketch with all 5 files
